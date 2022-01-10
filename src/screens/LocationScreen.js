@@ -79,13 +79,13 @@ const styles = StyleSheet.create({
   },
   map: {
     width: width,
-    height: height / 1.15,
+    height: height * 0.86,
   },
   buttonContainer: {
+    position: "absolute",
     flexDirection: "row",
-    justifyContent: "center",
-
-    flex: 1,
+    justifyContent: "flex-end",
+    bottom: 0,
   },
   buttonStyle: {
     width: width * 0.5,
